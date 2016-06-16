@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 package juegoahorcado;
-
+import java.util.Scanner;
 /**
  *
  * @author Josue Muñoz S.
@@ -12,11 +12,11 @@ package juegoahorcado;
  */
 public class Juegoahorcado {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+       
+        Scanner scanner = new Scanner(System.in);
+        String [] listaPalabras = {"HEREDIANO","herediano","SAPRISSA","saprissa","ALAJUELA","alajuela","CARTAGO","cartago","SANCARLOS","sancarlos","BELEN","belen","LIMON","limon"};
+        System.out.println("Hola! A que no adivinas la palabra que tengo en mente ¿?... te atreves a jugar?");
     }
     
 }
